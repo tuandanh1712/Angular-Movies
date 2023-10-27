@@ -8,12 +8,15 @@ import { SearchComponent } from './pages/search/search.component';
 import { MovieDetailsComponent } from './pages/movie-details/movie-details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SearchComponent,
     MovieDetailsComponent,
+    NotFoundPageComponent,
   ],
   imports: [
     BrowserModule,
